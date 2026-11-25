@@ -5,7 +5,7 @@ provider "aws" {
   default_tags {
     tags = {
       Project     = "mdb"
-      Environment = "dev"
+      Environment = "prod"
       ManagedBy   = "terraform"
       Repo        = "platform-deployments"
     }
